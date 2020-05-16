@@ -1,0 +1,17 @@
+table,th,td{
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: courier;
+    background-color: lightblue
+
+}
+
+h1,h2 {
+    font-display: bold;
+}
+
+
