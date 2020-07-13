@@ -26,7 +26,7 @@ export const startSetUser = (loginData,redirect) => {
                     localStorage.setItem('authToken',response.data.token)
                     dispatch(setUser(response.data.user))
                     redirect()
-                    setTimeout(()=>document.location.reload(),1000)
+                    //setTimeout(()=>document.location.reload(),1000)
                     
                 }
             })
